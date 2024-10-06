@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <img src="icon.png" alt="">
+      <h1>Calculadora con nombres</h1>
+      <div class="inputarea">
+        <input type="text" placeholder="Tu nombre" id="NameOne" onfocus="this.value = ''">
+        <input type="text" placeholder="Su nombre" id="NameTwo" onfocus="this.value = ''">
+      </div>
+      <a href="#" onclick="love()">Calcular</a>
+      <p id="print">resultado: </p>
+      <p id="statement"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
